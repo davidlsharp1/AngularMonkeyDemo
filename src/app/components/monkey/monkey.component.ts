@@ -1,7 +1,7 @@
-import { MonkeyService } from './../services/monkey.service';
+import { MonkeyService } from './../../services/monkey.service';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Monkey } from '../models/monkey';
+import { Monkey } from '../../models/monkey';
 
 @Component({
   selector: 'app-monkey',
